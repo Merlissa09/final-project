@@ -1,0 +1,4 @@
+<launch>
+    <node name="server" pkg="melissa_services" type="service_client.py" output="screen" />
+    <node name="client" pkg="melissa_services" type="service_server.py" output="screen" />
+</launch>

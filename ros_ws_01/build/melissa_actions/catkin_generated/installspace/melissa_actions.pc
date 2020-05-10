@@ -1,0 +1,8 @@
+prefix=/home/merlissa/code/ros_ws_01/install
+
+Name: melissa_actions
+Description: Description of melissa_actions
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs roscpp rospy
